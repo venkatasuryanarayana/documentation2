@@ -42,7 +42,9 @@
     * For pasting JavaScript in the body you have to follow bottom steps:
     
     Step 1: Scroll the bottom of your “index.html” file.
+    
     Step 2: There you will see the body tag is closing. like </body>.
+    
     Step 3: Copy the bottom scripts and past on the top of the </body> tag.
     
  ### Examples of using bootstrap CDN:
@@ -51,22 +53,30 @@
     * First Download CDN's Directory and use by following steps
  Step 1:
      Go to Website getbootstrap.com
+     
  Step 2:
       Select the version of bootstrap which you want to download.
+      
  step 3:
       After selection of versions move on the right side of the header and click on the download button.
+      
  step 4:
        Extract the bootstrap directory in local computer
+       
  step 5:
        It Have many files in the folder from those you have to open the dist folder
+       
  step 6:
        In the dist folder you will found two folders
                     1.CSS
                     2.JS
+                    
 step 7:
        In CSS Folder contains many files in that you have to select and copy bootstrap.min.css and paste that file in the project directory.
+       
 Step 8:
         Same like as CSS files there also js files in JS folder from there we will copy the bootstrap.min.js file and place this in project directory
+        
        
        We have downloaded the directory of bootstrap 4.0. Now, we can implement these in our own index.html file. You have to do the same as we had to do in the online CDN method. add your directory path in the <head> tag and <body> tag.
 
