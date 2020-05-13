@@ -32,14 +32,15 @@
               
 ## 1.Online CDN for Bootstrap:
    ### CSS:
-   * Have to follow some steps to install this CDN in websites.
-      step 1: Open your website's "index.html" page.
-      step 2: you will see <head> tag in the nested of <html> tag.
-      step 3: copy this CDN
-      step 4: Paste this CSS CDN in the top of </head> tag
+   * Have to follow some steps to install this CDN in websites.<br>
+   
+      step 1: Open your website's "index.html" page.<br>
+      step 2: you will see <head> tag in the nested of <html> tag.<br>
+      step 3: copy this CDN<br>
+      step 4: Paste this CSS CDN in the top of </head> tag<br>
       
   ### CSS Link    
-      ```<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-     9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">'''
+  ```<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-     9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">'''
       
   
   ### Javascript:
@@ -49,12 +50,9 @@
       Step 3: Copy the bottom scripts and past on the top of the </body> tag.
     
   ## JS links:
-    
-```<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>```
- 
-```<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>```
-
-```<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>```
+  ```<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>```
+  ```<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>```
+  ```<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>```
     
  ### Examples of using bootstrap CDN:
  
@@ -97,6 +95,50 @@ Step 11:
 
 Step 12: 
       We have pasted CSS file now Past Javascript in the top of </body> tag. for example <script src=”Here your file path”>. This is for the “bootstrap.min.js” file.
+      
+Example:
+```<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+      .custom-row{
+        border: 5px dashed red;
+      }
+      .custom-col{
+        border: 5px dotted blue;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container" style="border:5px solid #ddd">
+      <div class="row custom-row">
+        <div class="col-2 custom-col">
+          Row 1 - Col-1
+        </div>
+        <div class="col custom-col">
+          Row 1 - Col-2
+        </div>
+
+      </div>
+      <div class="row custom-row">
+        <div class="col custom-col">
+          Row 2 - Col-1
+        </div>
+         <div class="col">
+          Row 2 - Col-2
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
+```
       
        
 Note*:
