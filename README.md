@@ -33,14 +33,12 @@
 ## 1.Online CDN for Bootstrap:
   ### CSS:
   * Have to follow some steps to install this CDN in websites.
-      step 1: 
-            Open your website's **"index.html"** page.
-      step 2: 
-            you will see **<head>** tag in the nested of **<html>** tag.
-      step 3: 
-            **copy** this **CDN**
-      step 4: 
-            Paste this CSS CDN in the top of </head> tag
+    ```
+    step 1: Open your website's **"index.html"** page.
+    step 2: you will see **<head>** tag in the nested of **<html>** tag.
+    step 3: **copy** this **CDN**
+    step 4: Paste this CSS CDN in the top of </head> tag
+    ```
      
   
   ### Javascript:
@@ -54,7 +52,8 @@
  ### Examples of using bootstrap CDN:
  
  ## 2.Download Bootstrap for offline:
-    * First Download CDN's Directory and use by following steps
+ * First Download CDN's Directory and use by following steps
+ 
  Step 1:
      Go to Website getbootstrap.com
      
@@ -81,17 +80,13 @@ step 7:
 Step 8:
         Same like as CSS files there also js files in JS folder from there we will copy the bootstrap.min.js file and place this in project directory
         
-       
-       ```We have downloaded the directory of bootstrap 4.0. Now, we can implement these in our own index.html file. You have to do the same as we had to do in the online CDN method. add your directory path in the <head> tag and <body> tag.
- ```
-
-Step 10: 
+Step 9: 
     Open the “Index.html” file.
 
-Step 11: 
+Step 10: 
      <link rel=”stylesheet” href=”Here your file directory path”> copy this line and past in the top of </head> tag. This is for the “bootstrap.min.css” file.
 
-Step 12: 
+Step 11: 
       We have pasted CSS file now Past Javascript in the top of </body> tag. for example <script src=”Here your file path”>. This is for the “bootstrap.min.js” file.
       
        
