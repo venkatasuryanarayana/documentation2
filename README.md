@@ -33,9 +33,11 @@
 ## 1.Online CDN for Bootstrap:
   ### CSS:
      * Have to follow some steps to install this CDN in websites.
-      step 1: Open your website's **"index.html"** page.
-      step 2: you will see **<head>** tag in the nested of **<html>** tag.
-      step 3: **copy** this **CDN**
+      step 1: Open your website's "index.html" page.
+      step 2: you will see <head> tag in the nested of <html> tag.
+      step 3: copy this CDN
+      
+      ```<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-     9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">'''
       step 4: Paste this CSS CDN in the top of </head> tag
   
   ### Javascript:
@@ -47,12 +49,19 @@
     
     Step 3: Copy the bottom scripts and past on the top of the </body> tag.
     
+    ```<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ ```
+```<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>```
+
+```<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+```
+    
  ### Examples of using bootstrap CDN:
  
  ## 2.Download Bootstrap for offline:
     * First Download CDN's Directory and use by following steps
  Step 1:
-     Go to Website getbootstrap.com
+     Go to Website [getbootstrap.com](https://getbootstrap.com/)
      
  Step 2:
       Select the version of bootstrap which you want to download.
@@ -64,7 +73,7 @@
        Extract the bootstrap directory in local computer
        
  step 5:
-       It Have many files in the folder from those you have to open the dist folder
+       It Have many files in the folder from those you have to open the **dist** folder
        
  step 6:
        In the dist folder you will found two folders
@@ -72,7 +81,7 @@
                     2.JS
                     
 step 7:
-       In CSS Folder contains many files in that you have to select and copy bootstrap.min.css and paste that file in the project directory.
+       In CSS Folder contains many files in that you have to select and copy **bootstrap.min.css** and paste that file in the project directory.
        
 Step 8:
         Same like as CSS files there also js files in JS folder from there we will copy the bootstrap.min.js file and place this in project directory
