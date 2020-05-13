@@ -1,10 +1,10 @@
 # Bootstrap
 ## What is bootstrap:
-    Bootstrap is the popular HTML, CSS and JavaScript framework for developing a responsive web applications.
-      * Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter
-      * It is absolutely free to download and use.
-      * It is a front-end framework used for easier and faster web development.
-      * By using Bootstrap we can build  Responsiveness web applications with the help of predefined classes
+ * Bootstrap is the popular HTML, CSS and JavaScript framework for developing a responsive web applications.
+    * Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter
+    * It is absolutely free to download and use.
+    * It is a front-end framework used for easier and faster web development.
+    * By using Bootstrap we can build  Responsiveness web applications with the help of predefined classes
 ## Advantages of using bootstrap:
 
 ###  Lightweight and customizable:
