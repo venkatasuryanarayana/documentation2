@@ -71,8 +71,10 @@
        
  step 6:
        In the dist folder you will found two folders
-                    1.CSS
+                   ```
+                   1.CSS
                     2.JS
+                    ```
                     
 step 7:
        In CSS Folder contains many files in that you have to select and copy bootstrap.min.css and paste that file in the project directory.
@@ -88,6 +90,22 @@ Step 10:
 
 Step 11: 
       We have pasted CSS file now Past Javascript in the top of </body> tag. for example <script src=”Here your file path”>. This is for the “bootstrap.min.js” file.
+   
+## Example:
+```
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Welcome to bootstrap</h1>
+
+  </body>
+</html>
+```
       
        
 Note*:
