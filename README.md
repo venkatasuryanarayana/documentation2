@@ -32,20 +32,24 @@
               
 ## 1.Online CDN for Bootstrap:
   ### CSS:
-     * Have to follow some steps to install this CDN in websites.
-      step 1: Open your website's **"index.html"** page.
-      step 2: you will see **<head>** tag in the nested of **<html>** tag.
-      step 3: **copy** this **CDN**
-      step 4: Paste this CSS CDN in the top of </head> tag
+  * Have to follow some steps to install this CDN in websites.
+      step 1: 
+            Open your website's **"index.html"** page.
+      step 2: 
+            you will see **<head>** tag in the nested of **<html>** tag.
+      step 3: 
+            **copy** this **CDN**
+      step 4: 
+            Paste this CSS CDN in the top of </head> tag
+     
   
   ### Javascript:
-    * For pasting JavaScript in the body you have to follow bottom steps:
-    
+  * For pasting JavaScript in the body you have to follow bottom steps:
+    ```
     Step 1: Scroll the bottom of your “index.html” file.
-    
     Step 2: There you will see the body tag is closing. like </body>.
-    
     Step 3: Copy the bottom scripts and past on the top of the </body> tag.
+    ```
     
  ### Examples of using bootstrap CDN:
  
