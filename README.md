@@ -27,8 +27,8 @@
 
 ## How to use bootstrap in the application:
   * We can use bootstrap to websites in 2 ways
-              `1.Offline(download directory)`
-              `2.Online(using CDN)`
+   1.Offline(download directory)
+   2.Online(using CDN)
               
 ## 1.Online CDN for Bootstrap:
   ### CSS:
