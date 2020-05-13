@@ -102,7 +102,8 @@ Step 11:
   </head>
   <body>
     <h1>Welcome to bootstrap</h1>
-
+    
+    <script type="text/javascript" src="/js/bootstrap.min.css">
   </body>
 </html>
 ```
