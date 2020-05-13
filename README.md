@@ -1,10 +1,10 @@
 # Bootstrap
 ## What is bootstrap:
- * Bootstrap is the popular HTML, CSS and JavaScript framework for developing a responsive web applications.
-    * Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter
-    * It is absolutely free to download and use.
-    * It is a front-end framework used for easier and faster web development.
-    * By using Bootstrap we can build  Responsiveness web applications with the help of predefined classes
+    Bootstrap is the popular HTML, CSS and JavaScript framework for developing a responsive web applications.
+      * Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter
+      * It is absolutely free to download and use.
+      * It is a front-end framework used for easier and faster web development.
+      * By using Bootstrap we can build  Responsiveness web applications with the help of predefined classes
 ## Advantages of using bootstrap:
 
 ###  Lightweight and customizable:
@@ -22,7 +22,7 @@
   * If you can use bootstrap 4 for your website, then you don’t worry about the compatibility of browsers. because if you are installing bootstrap 4 on your website this will compatible with all the browsers. like Google Chrome, Firefox, Safari, Opera Mini, and many more browsers.
     
 ### Great grid system:
-   * In this framework grid system is amazing. we can say one of the very useful for a responsive web design system that is the grid system. here we can see 1 to 12 pairs of the grid system and we can use it as per our need.
+    * In this framework grid system is amazing. we can say one of the very useful for a responsive web design system that is the grid system. here we can see 1 to 12 pairs of the grid system and we can use it as per our need.
     
 
 ## How to use bootstrap in the application:
@@ -31,35 +31,28 @@
               2.Online(using CDN)
               
 ## 1.Online CDN for Bootstrap:
-   ### CSS:
-   * Have to follow some steps to install this CDN in websites.<br>
-   
-      step 1: Open your website's "index.html" page.<br>
-      step 2: you will see <head> tag in the nested of <html> tag.<br>
-      step 3: copy this CDN<br>
-      step 4: Paste this CSS CDN in the top of </head> tag<br>
-      
-  ### CSS Link    
-  ```<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-     9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">'''
-      
+  ### CSS:
+     * Have to follow some steps to install this CDN in websites.
+      step 1: Open your website's **"index.html"** page.
+      step 2: you will see **<head>** tag in the nested of **<html>** tag.
+      step 3: **copy** this **CDN**
+      step 4: Paste this CSS CDN in the top of </head> tag
   
   ### Javascript:
-  * For pasting JavaScript in the body you have to follow bottom steps:
-      Step 1: Scroll the bottom of your “index.html” file.
-      Step 2: There you will see the body tag is closing. like </body>.
-      Step 3: Copy the bottom scripts and past on the top of the </body> tag.
+    * For pasting JavaScript in the body you have to follow bottom steps:
     
-  ## JS links:
-  ```<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>```
-  ```<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>```
-  ```<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>```
+    Step 1: Scroll the bottom of your “index.html” file.
+    
+    Step 2: There you will see the body tag is closing. like </body>.
+    
+    Step 3: Copy the bottom scripts and past on the top of the </body> tag.
     
  ### Examples of using bootstrap CDN:
  
  ## 2.Download Bootstrap for offline:
     * First Download CDN's Directory and use by following steps
  Step 1:
-     Go to Website [getbootstrap.com](https://getbootstrap.com/)
+     Go to Website getbootstrap.com
      
  Step 2:
       Select the version of bootstrap which you want to download.
@@ -71,7 +64,7 @@
        Extract the bootstrap directory in local computer
        
  step 5:
-       It Have many files in the folder from those you have to open the **dist** folder
+       It Have many files in the folder from those you have to open the dist folder
        
  step 6:
        In the dist folder you will found two folders
@@ -79,13 +72,14 @@
                     2.JS
                     
 step 7:
-       In CSS Folder contains many files in that you have to select and copy **bootstrap.min.css** and paste that file in the project directory.
+       In CSS Folder contains many files in that you have to select and copy bootstrap.min.css and paste that file in the project directory.
        
 Step 8:
         Same like as CSS files there also js files in JS folder from there we will copy the bootstrap.min.js file and place this in project directory
         
        
-       We have downloaded the directory of bootstrap 4.0. Now, we can implement these in our own index.html file. You have to do the same as we had to do in the online CDN method. add your directory path in the <head> tag and <body> tag.
+       ```We have downloaded the directory of bootstrap 4.0. Now, we can implement these in our own index.html file. You have to do the same as we had to do in the online CDN method. add your directory path in the <head> tag and <body> tag.
+ ```
 
 Step 10: 
     Open the “Index.html” file.
@@ -95,50 +89,6 @@ Step 11:
 
 Step 12: 
       We have pasted CSS file now Past Javascript in the top of </body> tag. for example <script src=”Here your file path”>. This is for the “bootstrap.min.js” file.
-      
-Example:
-```<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <style>
-      .custom-row{
-        border: 5px dashed red;
-      }
-      .custom-col{
-        border: 5px dotted blue;
-      }
-
-    </style>
-  </head>
-  <body>
-    <div class="container" style="border:5px solid #ddd">
-      <div class="row custom-row">
-        <div class="col-2 custom-col">
-          Row 1 - Col-1
-        </div>
-        <div class="col custom-col">
-          Row 1 - Col-2
-        </div>
-
-      </div>
-      <div class="row custom-row">
-        <div class="col custom-col">
-          Row 2 - Col-1
-        </div>
-         <div class="col">
-          Row 2 - Col-2
-        </div>
-
-      </div>
-
-    </div>
-
-  </body>
-</html>
-```
       
        
 Note*:
